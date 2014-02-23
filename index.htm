@@ -1,0 +1,53 @@
+<html>
+    
+    <head>
+        
+        <style>
+            <!--
+        
+        #h1 {
+            height: 200px;
+            width: 300px;
+        }
+        #h2 {
+            height: 200px;
+            width: 300px;
+        }
+        
+        #h2 .bar {
+            background-color: rgb(7,96,138);
+        }
+        -->
+            </style>
+        
+        <script src="histogram.js"></script>
+        <link type="text/css" rel="stylesheet"  href="histogram.css"/>
+    </head>
+    
+    <body>
+        
+        <div class="compare">
+            <div id="h1" class="histogram-left">
+            </div>
+            <div id="h2">
+            </div>
+        </div>
+        
+        <script>
+            
+            
+        
+        histogram( "h1", {
+                  "data": [70,20,30,40,10]
+                  } );
+                  
+                  histogram( "h2", {
+                            "data": [70,20,30,40,10]
+                            } );
+                            
+            </script>
+        
+    </body>
+    
+</html>
+

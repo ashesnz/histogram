@@ -1,0 +1,8 @@
+{
+    "name": "histogram",
+    "version": "0.0.1",
+    "main": ["histogram.js", "histogram.css"],
+    "ignore": [
+               "**/*.htm"
+               ]
+}

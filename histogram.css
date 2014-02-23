@@ -1,0 +1,26 @@
+.compare .histogram {
+    float: left;
+    margin-left: 1%;
+}
+
+.histogram {
+    position: relative;
+    border: none;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.histogram .bar {
+    position: absolute;
+    margin-top: 1%;
+    background-color: #0A94D7;
+}
+
+.histogram-left {
+    border-left: none;
+    border-right: 1px solid black;
+}
+.histogram-left .bar {
+    right: 0;
+}
+
